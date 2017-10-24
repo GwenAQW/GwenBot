@@ -4,6 +4,9 @@
   "description": "The loveliest person ever, now in bot form!",
   "main": "bot.js",
   "author": "Gwen",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "discord.io": "^2.5.3",
     "winston": "^2.4.0"
