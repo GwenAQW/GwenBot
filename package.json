@@ -1,13 +1,11 @@
 {
   "name": "GwenBot",
+  "version": "1.0.0",
   "description": "The loveliest person ever, now in bot form!",
-  "version": "0.0.0",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
+  "author": "Gwen",
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "discord.io": "^2.5.3",
+    "winston": "^2.4.0"
   }
 }
