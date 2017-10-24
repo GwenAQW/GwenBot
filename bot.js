@@ -6,13 +6,6 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-});
-
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
    if (message.substring(0,6) == 'Gwen, ') {
 		var args = message.substring(6).split(' ');
 		var cmd = args[0]
